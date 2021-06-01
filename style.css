@@ -1,0 +1,335 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+    font-family: 'Maiandra GD', sans-serif;
+}
+.container {
+    max-width: 100%;
+    margin: auto;
+	float: center;
+    padding: 2.5rem;
+	}
+nav{
+   text-decoration:none;
+   list-style: none;
+   background: white;
+   height: 80px;
+   width: 100%;
+}
+label.logo{
+    font-weight: 100px;
+     font-family: 'Berkshire Swash', cursive;
+     font-family: 'Saira Stencil One', cursive;
+    color: black;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 ;
+   font-weight: bold;
+   margin-left: 5px;
+}
+nav ul{
+    float: right;
+	margin-right: 20px;
+}	
+nav ul li {
+     display: inline-block;
+	 line-height: 80px;
+	 margin: 0 5px;
+	 }
+nav ul li a{
+     color: black;
+	 font-size: 20px;
+	 padding: 7px 13px;
+	 border-radius: 3px;
+	 text-transform: uppercase;
+	 text-decoration: none;
+	 }
+a:hover{
+    color: #fa394a;
+}
+.color{color: Crimson;}
+.checkbtn{
+   font-size: 30px;
+   float: right;
+   line-height: 80px;
+   margin-right: 40px;
+   cursor: pointer;
+   display:none ;
+}
+#check{
+    display:none;
+	}
+.form {
+    display: grid;
+    grid-gap: 3rem;
+	float:center;
+	}
+#background-image{
+background-image: url("m1.jpg");
+width: 100%;
+height: 100vh;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+
+}
+.user-page { 
+    font-size: 1.4rem;  
+    justify-self: center;
+    width: 60%;
+	box-align: center;
+}
+.bg-red {
+    background-color: red;
+    color: #fcfcfc;
+    padding: 0.5rem;
+    border-radius: 20px;
+    width: 60%;
+    justify-self: center;
+    text-align: center;
+}
+.box-edit {
+    background-color: rgba(0,0,0,0,125);
+    padding: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 0px;
+    box-shadow: #3f4a58 5px 5px 10px 4px;
+	margin-left: 300px;
+}
+label.head{
+   font-size: 40px;
+   color:white;
+   text-align: center;
+   }
+.user-area {
+    margin-right: auto;
+    margin-left: 0px;
+    text-align: center;
+}
+.user-area input {
+     overflow: hidden;
+	 font-size: 20px;
+	 margin: 8px 0;
+	 padding: 8px 0;
+	 border-bottom: 3px solid #ff6768;
+	 color: black;
+	 background: none;
+	 font-weight: 700px;
+	 text-align: center;
+}
+.user-area button {
+    color:#494949;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: white;
+	border-radius: 5px;
+	margin-left: 5px;
+	padding: 11px;
+	border: 2px solid #494949;
+	display: inline-block;
+	transition: all 0.4 ease 0s;
+	text-align: center;
+}
+.user-area button:hover{
+   color:#ffffff;
+   background: #ff6768;
+   border-color: #ff6768;
+   transition: all 0.4 ease 0s;
+   }
+ input{
+   border: none;
+   }
+.main-page { font-size: 1.15rem; }
+.main-area {
+    display: grid;
+    grid-gap: 2.5rem;
+    line-height: 1.7;
+}
+.main-area .grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.grid span {
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: black;
+}
+.temp-img {
+    display: flex; 
+    justify-content: center;
+}
+.temp-img h2 {
+    font-size: 2rem;
+    margin-top: 1.3rem;
+}
+.intro { text-align: center; }
+.intro h3 { font-size: 1.8rem; }
+#foot{
+     color:white;
+     background-color:black;
+     font-weight: 200px;
+     font-family:Arial;
+	 font-size:20px; 
+	 padding:10px;
+	 margin-top: 5px;
+	 margin-bottom: 3px;
+	 width: 100%;
+	  box-shadow: #3f4a58 5px 5px 10px 4px;
+	  display: border-box;
+}
+.follow-me{
+  text-align:center;
+  font-size: 25px;
+  }
+
+.fa-instagram{
+      background:black;
+	  color: white;
+	  }
+.fa-linkedin-in{
+      background:black;
+	  color: white;
+	  }
+@media (min-width: 576px){
+      .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left; }
+    .col-sm-1 {
+        width: 8.33%; }
+   .col-sm-2 {
+        width: 16.66%;  }
+    .col-sm-3 {
+        width: 25%;}
+    .col-sm-4 {
+        width: 33.33%;  }
+    .col-sm-5 {
+        width: 41.66%;}
+    .col-sm-6 {
+        width: 50%; }
+    .col-sm-7 {
+        width: 58.33%; }
+    .col-sm-8 {
+        width: 66.66%;  }
+    .col-sm-9 {
+        width: 74.99%;}
+    .col-sm-10 {
+        width: 83.33%;}
+    .col-sm-11 {
+        width: 91.66%; }
+    .col-sm-12 {
+        width: 100%; }
+       label.logo{
+      font-size: 30px;
+	  }
+	  .checkbtn{
+    display: block;
+	color: black;
+}	
+ul{
+   position: fixed;
+   width: 100%;
+   height: 100vh;
+   background: lightgrey;
+   top: 80px;
+   left: -100%;
+   text-align: center;
+   transition: all .5s;
+   }
+ nav ul li{
+     display: block;
+	 margin: 50px;
+	 line-height: 30px;
+	 }
+nav ul li a{
+     font-size: 20px;
+     }
+a:hover{
+   background: none;
+   color: red;
+}
+#check:checked ~ ul{
+      left: 0;
+}	
+ label.logo{
+      font-size: 20px;
+	  }
+	  .box-edit {
+    background-color: rgba(0,0,0,0,125);
+    padding: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 0px;
+    box-shadow: #3f4a58 5px 5px 10px 4px;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	width: 400px;
+	
+}
+   label.head{
+      font-size: 30px;
+	  text-align: left;
+	  margin: 0 px;
+	  
+	  }
+	  .user-area input {
+     height: 40px;
+	 overflow: hidden;
+	 font-size: 15px;
+	 margin-left: 0px;
+	 padding:  0;
+	 border-bottom: 3px solid #ff6768;
+	 color: black;
+	 background: none;
+	 font-weight: 0px;
+	 margin-top: 0 px;
+	 margin-bottom: 10px;
+	 width: 150px;
+}
+ 
+.user-area button {
+    color:#494949;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: white;
+	border-radius: 5px;
+	margin-left: 5px;
+	padding: 11px;
+	padding-bottom: 3px;
+	border: 2px solid #494949;
+	display: inline-block;
+	transition: all 0.4 ease 0s;
+	text-align: center;
+	width: 90px;
+	height: 50px;
+	
+}
+.main-page { font-size: 15px; }
+.main-area {
+    display: grid;
+    grid-gap: 2.5rem;
+    line-height: 20px;;
+}
+.main-area .grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid span {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+.follow-me{
+   text-align:center;
+   margin-top: 10px;
+   font-size: 20px;
+  }  
+}
